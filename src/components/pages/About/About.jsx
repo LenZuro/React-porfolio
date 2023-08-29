@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import headShot from "../../../images/headShot.jpeg";
-import { CardMedia } from "@mui/material/CardMedia";
+import  CardMedia  from "@mui/material/CardMedia";
 
 export default function About () {
     return (

@@ -1,7 +1,7 @@
 import React , { useState } from "react";
-import { TextField , dividerClasses } from "@mui/material";
-import { Button , MenuItem } from "@mui/base";
-import Stack from "@mui/material/Stack";
+import { TextField , dividerClasses, MenuList ,MenuItem } from "@mui/material";
+import  {Button}  from "@mui/base";
+//import Stack from "@mui/material/Stack";
 import "./Contact.css";
 
 export default function Contact() {
@@ -66,7 +66,7 @@ export default function Contact() {
             <h1 style={{display: "flex" , justifyContent: "center"}}> Contact Me</h1>
         </div>
         <form style={{ display: "flex" , justifyContent: "center"}}>
-            <Stack spacing={2}>
+            <MenuList spacing={2}>
                 <MenuItem>
                 <TextField
                 defaultValue={name}
@@ -111,7 +111,7 @@ export default function Contact() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                  )}
-                 <MenuItem style={{ justifyContent: center}}>
+                 <MenuItem style={{ justifyContent: "center"}}>
                  <Button
                     id="contact-button"
                     className="pop-on-hover"
@@ -121,7 +121,7 @@ export default function Contact() {
                     Submit
                  </Button>
                  </MenuItem>
-            </Stack>
+            </MenuList>
         </form>
         </>
     );

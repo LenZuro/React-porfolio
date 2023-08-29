@@ -53,13 +53,13 @@ export default function Resume () {
                 >
                 Back-end Skills
                 </h2>
-                <p>
+                <p
                 style={{
                      display: "flex",
                     justifyContent: "center",
                     paddingRight: "80px",
                     }}
-            
+                    >
                     -HTML 
                     <br></br>- Node
                     <br></br>- Express
