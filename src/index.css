@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #FAF1E4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 , p {
+    color: black;
+}
