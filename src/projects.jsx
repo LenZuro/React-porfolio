@@ -35,4 +35,10 @@ export const projects = [
         gitHub: "https://github.com/LenZuro/social-api",
         liveLink: "",
     },
+    {
+        projectTitle: "Thyme-For-Lunch",
+        description: "A easy to use meal planning app to help plan out the weeks meals and find new meals to make.",
+        gitHub: "https://github.com/Esztergb/Thyme-for-Lunch",
+        liveLink: "https://thyme-for-lunch-ca35ba4e7fee.herokuapp.com/"
+    },
 ];
